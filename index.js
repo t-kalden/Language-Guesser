@@ -9,5 +9,5 @@ const language = langs.where("3", code);
 if(code == 'und') {
     console.log("Sorry, couldn't figure it out! Try with longer sample");
 } else {
-    console.log(`${language.name}`);
+    console.log(`The detected language is ${language.name}`);
 }
